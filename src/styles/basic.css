@@ -1,0 +1,54 @@
+:root {
+  --StrongCyan: hsl(171, 66%, 44%);
+  --LightBlue: hsl(233, 100%, 69%);
+
+  --DarkGrayishBlue: hsl(210, 10%, 33%);
+  --GrayishBlue: hsl(201, 11%, 66%);
+}
+
+body {
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+.hero-layout-size {
+  max-width: 375px;
+  width: 95%;
+  margin-inline: auto;
+}
+
+.btn {
+  font-size: 1.125rem;
+  padding: 0.875rem 3rem;
+  border-radius: 100vmax;
+  color: white;
+  font-weight: 600;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  opacity: 0.8;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-cyan {
+  background-color: var(--StrongCyan);
+  box-shadow: 0 3px 2px hsl(171, 46%, 44%);
+}
+
+.btn-blue {
+  background-color: var(--LightBlue);
+  box-shadow: 0 3px 2px hsl(232, 31%, 62%);
+}
+
+@media (min-width: 1024px) {
+  .hero-layout-size {
+    max-width: 1440px;
+  }
+}
+
+/* block spacing */
+
+.flow-only {
+  margin-top: var(--flow-only, 1rem);
+}
