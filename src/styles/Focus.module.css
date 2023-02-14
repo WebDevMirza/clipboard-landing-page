@@ -1,0 +1,12 @@
+.focus {
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+.focus h1 {
+  font-size: 1.75rem;
+}
+
+.focus p {
+  font-size: 1.125rem;
+}

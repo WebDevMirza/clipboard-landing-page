@@ -1,6 +1,13 @@
 import Head from "next/head";
 import { Bai_Jamjuree } from "@next/font/google";
 import Hero from "@/components/Hero";
+import Focus from "@/components/Focus";
+import Data from "../assets/data/focusdata.json";
+import { useEffect, useState } from "react";
+import Feature from "@/components/Feature";
+
+import Devices from "../assets/images/image-devices.png";
+import Image from "next/image";
 
 const fontPrimary = Bai_Jamjuree({
   weight: ["400", "600"],
@@ -8,6 +15,11 @@ const fontPrimary = Bai_Jamjuree({
 });
 
 export default function Home() {
+  const myData = Data;
+  // const [myData, setMyData] = useState([]);
+  // useEffect(() => {
+  //   setMyData(Data);
+  // }, []);
   return (
     <>
       <Head>
@@ -23,10 +35,23 @@ export default function Home() {
           <section>
             <Hero />
           </section>
+          <section>
+            <Focus data={myData[0]} />
+          </section>
+          <section>
+            <Feature data={myData} />
+          </section>
+          <section>
+            <Focus data={myData[1]} />
+            <Image className="device flow-only" src={Devices} alt="device" />
+          </section>
+          <section>
+            <Focus data={myData[2]} />
+          </section>
         </div>
       </main>
     </>
   );
 }
 
-// 1. hero for desktop version
+// 1. listing

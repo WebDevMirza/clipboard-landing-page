@@ -11,10 +11,29 @@ body {
   letter-spacing: 0.05em;
 }
 
-.hero-layout-size {
+main {
+  text-align: center;
+}
+
+.hero-layout-size,
+.focus-layout-size,
+.feature-layout-size {
   max-width: 375px;
   width: 95%;
   margin-inline: auto;
+}
+
+.focus-layout-size {
+  --flow-only: 3rem;
+}
+
+h1 {
+  color: var(--DarkGrayishBlue);
+  font-weight: 600;
+}
+
+p {
+  color: var(--GrayishBlue);
 }
 
 .btn {
@@ -41,8 +60,16 @@ body {
   box-shadow: 0 3px 2px hsl(232, 31%, 62%);
 }
 
+/* Device */
+.device {
+  --flow-only: 3rem;
+  margin-inline: auto;
+}
+
 @media (min-width: 1024px) {
-  .hero-layout-size {
+  .hero-layout-size,
+  .focus-layout-size,
+  .feature-layout-size {
     max-width: 1440px;
   }
 }

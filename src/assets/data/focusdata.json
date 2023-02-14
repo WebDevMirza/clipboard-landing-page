@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "title": "Keep track of your snippets",
+    "desc": "Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything."
+  },
+
+  {
+    "id": 2,
+    "title": "Access Clipboard anywhere",
+    "desc": "Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks."
+  },
+
+  {
+    "id": 3,
+    "title": "Supercharge your workflow",
+    "desc": "We’ve got the tools to boost your productivity."
+  },
+
+  {
+    "id": 4,
+    "feature": true,
+    "title": "Quick Search",
+    "desc": "Easily search your snippets by content, category, web address, application, and more."
+  },
+
+  {
+    "id": 5,
+    "feature": true,
+    "title": "iCloud Sync",
+    "desc": "Instantly saves and syncs snippets across all your devices."
+  },
+
+  {
+    "id": 6,
+    "feature": true,
+    "title": "Complete History",
+    "desc": "Retrieve any snippets from the first moment you started using the app."
+  }
+]

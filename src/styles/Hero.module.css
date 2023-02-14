@@ -6,8 +6,6 @@
 }
 
 .hero {
-  text-align: center;
-
   display: grid;
   grid-template-columns: 1fr;
   align-content: center;
@@ -23,7 +21,7 @@
 }
 
 .hero-logo {
-  --flow-only: 3.5rem;
+  --flow-only: 1.5rem;
 }
 
 .hero-logo img {
@@ -31,15 +29,12 @@
 }
 
 .hero-body h1 {
-  color: var(--DarkGrayishBlue);
-  font-weight: 600;
   line-height: 1.2;
   max-width: 17ch;
   margin-inline: auto;
 }
 
 .hero-body p {
-  color: var(--GrayishBlue);
   font-size: 1.0625rem;
 }
 
