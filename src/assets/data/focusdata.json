@@ -36,5 +36,35 @@
     "feature": true,
     "title": "Complete History",
     "desc": "Retrieve any snippets from the first moment you started using the app."
+  },
+
+  {
+    "id": 7,
+    "service": true,
+    "itemName": "blacklists",
+    "title": "Create blacklists",
+    "desc": "Ensure sensitive information never makes its way to your clipboard by excluding certain sources."
+  },
+
+  {
+    "id": 8,
+    "service": true,
+    "itemName": "snippets",
+    "title": "Plain text snippets",
+    "desc": "Remove unwanted formatting from copied text for a consistent look."
+  },
+
+  {
+    "id": 9,
+    "service": true,
+    "itemName": "preview",
+    "title": "Sneak preview",
+    "desc": "Quick preview of all snippets on your Clipboard for easy access."
+  },
+
+  {
+    "id": 10,
+    "title": "Clipboard for iOS and Mac OS",
+    "desc": "Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard."
   }
 ]

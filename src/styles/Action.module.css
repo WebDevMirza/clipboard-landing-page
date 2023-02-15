@@ -1,0 +1,26 @@
+.action {
+  max-width: 350px;
+  margin-inline: auto;
+}
+
+.hero-action {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.75rem;
+
+  margin-top: 3.5rem;
+}
+
+@media (min-width: 1024px) {
+  .action {
+    max-width: 700px;
+  }
+
+  .hero-action {
+    grid-template-columns: 1fr 1fr;
+    max-width: 550px;
+    margin-inline: auto;
+
+    margin-top: 2rem;
+  }
+}

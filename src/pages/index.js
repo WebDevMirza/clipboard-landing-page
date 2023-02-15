@@ -1,13 +1,15 @@
-import Head from "next/head";
 import { Bai_Jamjuree } from "@next/font/google";
+import Head from "next/head";
 import Hero from "@/components/Hero";
 import Focus from "@/components/Focus";
-import Data from "../assets/data/focusdata.json";
-import { useEffect, useState } from "react";
 import Feature from "@/components/Feature";
-
-import Devices from "../assets/images/image-devices.png";
+import Service from "@/components/Service";
 import Image from "next/image";
+
+import Data from "../assets/data/focusdata.json";
+import Devices from "../assets/images/image-devices.png";
+import Company from "@/components/Company";
+import Action from "@/components/Action";
 
 const fontPrimary = Bai_Jamjuree({
   weight: ["400", "600"],
@@ -16,10 +18,6 @@ const fontPrimary = Bai_Jamjuree({
 
 export default function Home() {
   const myData = Data;
-  // const [myData, setMyData] = useState([]);
-  // useEffect(() => {
-  //   setMyData(Data);
-  // }, []);
   return (
     <>
       <Head>
@@ -47,6 +45,15 @@ export default function Home() {
           </section>
           <section>
             <Focus data={myData[2]} />
+          </section>
+          <section>
+            <Service data={myData} />
+          </section>
+          <section>
+            <Company />
+          </section>
+          <section>
+            <Action />
           </section>
         </div>
       </main>

@@ -1,0 +1,15 @@
+.company {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+.company img {
+  margin-inline: auto;
+}
+
+@media (min-width: 1024px) {
+  .company {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
