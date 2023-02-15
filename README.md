@@ -30,13 +30,11 @@ pnpm dev
 
 ### Desktop
 
-![](./screensshots/lg.webp)
+![](./screenshots/lg.webp)
 
 ### Mobile
 
-<img src="./screensshots/sm.webp" width="400" />
-
-
+<img src="./screenshots/sm.webp" width="400" />
 
 ## Author
 
