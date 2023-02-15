@@ -7,8 +7,6 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 - [Getting Started](#getting-started)
 - [Performance Test](#performance-test)
 - [Screenshot](#screenshot)
-- [What I've Learnt](#what-ive-learnt)
-- [Willing To Reach Advanced Goals](#willing-to-reach-advanced-goals)
 - [Author](#author)
 - [Date](#date)
 
@@ -36,23 +34,9 @@ pnpm dev
 
 ### Mobile
 
-<img src="./screenshots/sm.webp" width="400" />
+<img src="./screensshots/sm.webp" width="400" />
 
-## What I've Learnt
 
-```
-.footer-nav a:hover {
-  color: var(--Pink);
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  text-decoration-color: white;
-}
-```
-
-## Willing To Reach Advanced Goals
-
-- svg
-- css naming and good practice
 
 ## Author
 
