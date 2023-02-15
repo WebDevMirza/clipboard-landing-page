@@ -42,7 +42,7 @@ export default function Home() {
           </section>
           <section>
             <Focus data={myData[1]} />
-            <Image className="device flow-only" src={Devices} alt="device" />
+            <Image className="device flow-only" src={Devices} alt="device" priority />
           </section>
           <section>
             <Focus data={myData[2]} />
