@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Clipboard landing page solution by Mirza Monirul Alam using Next.js
+
+This is a solution to the [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9).
+
+## Table of contents
+
+- [Getting Started](#getting-started)
+- [Performance Test](#performance-test)
+- [Screenshot](#screenshot)
+- [What I've Learnt](#what-ive-learnt)
+- [Willing To Reach Advanced Goals](#willing-to-reach-advanced-goals)
+- [Author](#author)
+- [Date](#date)
 
 ## Getting Started
 
@@ -12,27 +24,41 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Performance Test
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![](./screenshots/per.jpg)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Screenshot
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Desktop
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![](./screensshots/lg.webp)
 
-## Learn More
+### Mobile
 
-To learn more about Next.js, take a look at the following resources:
+<img src="./screenshots/sm.webp" width="400" />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## What I've Learnt
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+.footer-nav a:hover {
+  color: var(--Pink);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: white;
+}
+```
 
-## Deploy on Vercel
+## Willing To Reach Advanced Goals
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- svg
+- css naming and good practice
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Author
+
+- Mirza Monirul Alam
+- Frontend Mentor - [@WebDevMirza](https://www.frontendmentor.io/profile/WebDevMirza)
+
+## Date
+
+- 16 February 2023
