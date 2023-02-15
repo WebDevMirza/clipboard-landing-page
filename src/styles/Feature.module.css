@@ -1,16 +1,7 @@
 .feature {
-  --flow-only: 4rem;
-
   display: grid;
   grid-template-columns: 1fr;
   gap: 3rem;
-
-  /* min-height: 200px;
-  border: 2px dotted red; */
-}
-
-.feature > * {
-  /* border: 2px dotted green; */
 }
 
 .feature-img {
@@ -36,6 +27,7 @@
 
   .feature-img {
     max-width: 100%;
+    margin-left: 2rem;
   }
 
   .feature-body {

@@ -10,7 +10,6 @@ import Data from "../assets/data/focusdata.json";
 import Devices from "../assets/images/image-devices.png";
 import Company from "@/components/Company";
 import Action from "@/components/Action";
-import { Main } from "next/document";
 import Footer from "@/components/Footer";
 
 const fontPrimary = Bai_Jamjuree({
