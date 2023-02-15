@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Action() {
   return (
     <>
-      <div className="action-layout-size">
+      <div className="layout-size">
         <div className={Styles["action"]}>
           <Focus data={MyData[9]} />
 

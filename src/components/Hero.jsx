@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <>
       <div className={Styles["bg-hero"]}>
-        <div className="hero-layout-size">
+        <div className="layout-size">
           <div className={Styles.hero}>
             <div className={`${Styles["hero-logo"]} flow-only`}>
               <Image src={Logo} alt="logo" />

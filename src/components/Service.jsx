@@ -17,7 +17,7 @@ const getIcon = (itemName) => {
 export default function Service({ data }) {
   return (
     <>
-      <div className="service-layout-size">
+      <div className="layout-size">
         <div className={Styles["service"]}>
           {data.map((v) => {
             return (

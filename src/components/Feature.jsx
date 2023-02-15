@@ -5,8 +5,8 @@ import Image from "next/image";
 export default function Feature({ data }) {
   return (
     <>
-      <div className="feature-layout-size">
-        <div className={`${Styles["feature"]} flow-only`}>
+      <div className="layout-size">
+        <div className={Styles["feature"]}>
           <div className={Styles["feature-img"]}>
             <Image src={Computer} alt="A computer image" />
           </div>

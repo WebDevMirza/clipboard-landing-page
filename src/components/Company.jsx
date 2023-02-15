@@ -9,7 +9,7 @@ import VectorIcon from "../assets/images/logo-vector-graphics.png";
 export default function Company() {
   return (
     <>
-      <div className="company-layout-size">
+      <div className="layout-size">
         <div className={Styles["company"]}>
           <Image src={GoogleIcon} alt="google icon" />
           <Image src={IbmIcon} alt="ibm icon" />

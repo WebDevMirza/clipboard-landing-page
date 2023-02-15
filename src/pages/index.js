@@ -35,7 +35,7 @@ export default function Home() {
           <section>
             <Hero />
           </section>
-          <section>
+          <section className="focus-flow flow-only">
             <Focus data={myData[0]} />
           </section>
           <section>

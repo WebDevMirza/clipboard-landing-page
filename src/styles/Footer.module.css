@@ -1,5 +1,7 @@
 .bg-footer {
   background-color: var(--bg-footer);
+  padding-bottom: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .footer {
@@ -61,6 +63,10 @@
 }
 
 @media (min-width: 1024px) {
+  .bg-footer {
+    padding-bottom: 0;
+  }
+
   .footer {
     grid-template-columns: 1fr 6fr 1.5fr;
     max-width: 1100px;
